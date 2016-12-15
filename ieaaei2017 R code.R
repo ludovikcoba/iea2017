@@ -31,7 +31,7 @@ library(rrecsys)
 
 
 RM <- defineData(ML1M)
-errr <- evalModel(RM)
+e <- evalModel(RM)
 
 #Weighted Slope One rrecsys####
 
